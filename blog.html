@@ -31,22 +31,99 @@ margin: 30px;
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/6bc4d1d1-6e92-45cb-83fc-25b04c330f04.jpg">
 <body>
-    <nav class="white hide-on-small-only" style="text-align: center; padding: 1%; height: 100px;">
+    
+    <nav class="white hide-on-small-only"> 
         <div class="container">
-        <ul class="left">
-            <img src="Saved Pictures/1485.gif" alt="">
-        </ul>
-        <ul class="right " style="font-weight: 500;">
-            <li><a href="index.html"  style="color: black;">Home</a></li>
-            <li><a href="about.html"  style="color: black;">About Us</a></li>
-            <li><a href="estates.html"  style="color: black;">Our Estates</a></li>
-            <li><a href="services.html"  style="color: black;">Services</a></li>
-            <li><a href="blog.html"  style="color: black;">Blog</a></li>
-            <li><a href="contactus.html"  style="color: black;">Contact Us</a></li>
-        </ul>
-    </div>
-</nav>
+         <ul class="right">
+             <li><a href="index.html"  style="color: black;">Home</a></li>
+             <li><a href="about.html"  style="color: black;">About Us</a></li>
+             <li><a href="estates.html"  style="color: black;">Our Estates</a></li>
+             <li><a href="services.html"  style="color: black;">Services</a></li>
+             <li><a href="blog.html"  style="color: black;">Blog</a></li>
+             <li><a href="contactus.html"  style="color: black;">Contact Us</a></li>
+         </ul>
+         <ul>
+             <li><img src="img/1485.gif" alt=""></li>
+         </ul>
+        </div>
+     </nav>
+ 
+     <nav class="hide-on-large-only white">
+         <ul id="slide-out" class="sidenav">
+             <li><a href="index.html"  style="color: black;">Home</a></li>
+             <li><a href="about.html"  style="color: black;">About Us</a></li>
+             <li><a href="estates.html"  style="color: black;">Our Estates</a></li>
+             <li><a href="services.html"  style="color: black;">Services</a></li>
+             <li><a href="blog.html"  style="color: black;">Blog</a></li>
+             <li><a href="contactus.html"  style="color: black;">Contact Us</a></li>
+         </ul>
+         <div class="row">
+             <div class="col m4 s8">
+                 <div class="container">
+                     <ul style="display: inline;">
+                         <li><img src="img/1485.gif" alt="" width="70%"></li>
+                     </ul>
+                 </div>
+             
+         </div>
+         <div  class="col m4 s4"><a class="sidenav-trigger right" href="" data-target="slide-out">
+             <i class="material-icons " style="color: black;">menu</i>
+         </a>
+         </div>
+     </div>
+     </nav>
+ 
+ 
+ 
+ 
+ 
+ 
+       <!-- <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
+       <a href="#name"><span class="white-text name">John Doe</span></a>
+       <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+     </div></li>
+ 
+     <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+     <li><a href="#!">Second Link</a></li>
+     <li><div class="divider"></div></li>
+     <li><a class="subheader">Subheader</a></li>
+     <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+   </ul>
+   <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          -->
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <!-- <nav class="white" style="text-align: center; padding: 1%; height: 100px;">
+         <div class="container hide-on-small-only">
+         <ul class="left">
+             <img src="img/1485.gif" alt="">
+         </ul>
+         <ul class="right " style="font-weight: 500;">
+             <li><a href="index.html"  style="color: black;">Home</a></li>
+             <li><a href="about.html"  style="color: black;">About Us</a></li>
+             <li><a href="estates.html"  style="color: black;">Our Estates</a></li>
+             <li><a href="services.html"  style="color: black;">Services</a></li>
+             <li><a href="blog.html"  style="color: black;">Blog</a></li>
+             <li><a href="contactus.html"  style="color: black;">Contact Us</a></li>
+         </ul>
+     </div>
+ </nav> -->
 
     <div style="background-image: url(img/pexels-photo-164558.jpeg); padding: 10%; background-repeat: no-repeat; background-size: cover; " >
         <h4 style="text-align: center; color: black; font-weight: 600;">News and Media</h4>
@@ -169,6 +246,12 @@ margin: 30px;
           <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
           <script>
             AOS.init();
+          </script>
+          <script>
+            $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+       
           </script>
           
         <script>
